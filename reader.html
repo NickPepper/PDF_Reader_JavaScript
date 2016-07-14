@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PDF Reader</title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta http-equiv="Expires" content="-1" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+		<meta name="description" content="PDF Reader" />
+
+		<link rel="stylesheet" type="text/css" href="./css/roboto.css" />
+		<link rel="stylesheet" type="text/css" href="./css/Material-Design-Iconic-Font.css" />
+		<link rel="stylesheet" type="text/css" href="./css/owl.css" />
+		<link rel="stylesheet" type="text/css" href="./css/main.css" />
+
+		<script src="./js/polyfills.js"></script>
+		<script src="./js/utils.js"></script>
+		<script src="./js/owl.js"></script>
+		<script src="./js/pdf.js"></script>
+		<script src="./js/main.js"></script>
+	</head>
+
+	<body>
+		<div class='hidden'>
+			<ul id='zoom-select' class='list'>
+				<li>Строка опции</li>
+				<li>Строка опции</li>
+				<li>Очень длинная строка опции однако</li>
+				<li class='selected'>Строка опции</li>
+				<li>Строка опции</li>
+			</ul>
+			<ul id='bookmark-select' class='list'>
+				<li>Очень длинная строка опции однако</li>
+				<li>Строка опции</li>
+				<li class='selected'>Строка опции</li>
+				<li>Строка опции</li>
+				<li>Строка опции</li>
+				<li>Строка опции</li>
+				<li>Строка опции</li>
+				<li>Строка опции</li>
+				<li>Строка опции</li>
+				<li>Строка опции</li>
+				<li>Строка опции</li>
+				<li>Строка опции</li>
+				<li>Строка опции</li>
+				<li>Строка опции</li>
+				<li>Строка опции</li>
+			</ul>
+		</div>
+		<div class='toolbar'>
+			<div class='page'>
+				<div class='button page-prev group-right'><span class='icon md-arrow-back'></span></div><!--
+				--><div class='button page-next group-left'><span class='icon md-arrow-forward'></span></div><!--
+				--><span>&nbsp;&nbsp;Страница:&nbsp;&nbsp;</span><!--
+				--><input type='text' class='input page-current'/><!--
+				--><span>&nbsp;&nbsp;из&nbsp;</span><!--
+				--><span class='page-total'></span>
+			</div>
+			<div class='bookmark'>
+				<div class='button bookmark-toggle group-right'><span class='icon md-bookmark-outline'></span></div><!--
+				--><div class='button select-menu-button  group-left tip' tip-content='#bookmark-select'>Закладки </div>
+			</div>
+			<div class='zoom'>
+				<div class='button zoom-plus group-right'><span class='icon md-add'></span></div><!--
+				--><div class='button zoom-minus group-left group-right'><span class='icon md-remove'></span></div><!--
+				--><div class='button zoom-select select-menu-button group-left group-right tip' tip-content='#zoom-select'>Автоматически </div><!--
+				--><div class='button zoom-fullscreen group-left'><span class='icon md-fullscreen'></span></div>
+			</div>
+			<div class='clear'></div>
+		</div>
+		<div class='content'>
+		</div>
+		<script>
+			/*new owl({content:'Тест'});
+			new owl({content:'Тест', type: 'error'});*/
+		</script>
+	</body>
+</html>

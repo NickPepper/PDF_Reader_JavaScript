@@ -1,0 +1,59 @@
+{  
+    "v":"1.0",
+    "status": "OK",
+    "error": "",
+    "mode": "readonly",
+    "metadata":{
+        "language":"en",
+        "age_limit":"18+",
+        "title":"Sample of William Shakespeare's JavaScript code",
+        "description": "Classical example of coding for fun",
+        "date":"2015-05-27T17:22:22+00:00",
+        "identifier":"2970011833295",
+        "author":"William Shakespeare",
+        "publisher":"Nick Pepper Labs",
+        "contributor":"Agile Fusion"
+    },
+    "spine":[  
+        {"X":"x1", "L":"titlepage.pdf", "B":true},
+        {"X":"x2", "L":"content.pdf", "B":true},
+        {"X":"x3", "L":"page_001.pdf", "B":true},
+        {"X":"x4", "L":"page_002.pdf", "B":true},
+        {"X":"x5", "L":"page_003.pdf", "B":true}
+    ],
+    "toc":{
+        "b":"William Shakespeare's JavaScript code",
+        "navmap":[  
+            {  
+                "label":"PROLOGUE",
+                "E":"page_001.pdf",
+                "excerptions":[
+                    {
+                        "id": 1,
+                        "title": "Man, look at this code!",
+                        "description": "This is really something...",
+                        "coords": {"start":[197, 68], "end":[345, 11]}
+                    }
+                ]
+            },
+            {  
+                "label":"EPILOGUE",
+                "E":"page_003.pdf",
+                "excerptions":[
+                    {
+                        "id": 1,
+                        "title": "Just WOW!",
+                        "description": "You'll love this",
+                        "coords": {"start":[123, 45], "end":[678, 9]}
+                    },
+                    {
+                        "id": 2,
+                        "title": "Sad, but this is the end",
+                        "description": "This is the end, my friend...",
+                        "coords": {"start":[98, 76], "end":[5, 432]}
+                    }
+                ]
+            }
+        ]
+    }
+}
